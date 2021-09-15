@@ -1,0 +1,33 @@
+# GET http://localhost:3000/wilders/read
+# Content-Type: application/json
+
+POST http://localhost:3000/wilders/create
+Content-Type: application/json
+
+{
+  "name": "Guy Liguili",
+  "city": "Lille",
+  "skills": [
+    {
+      "title": "React",
+      "votes": 5
+    }
+  ]
+}
+
+# DELETE http://localhost:3000/wilders/delete/6141c148079d58404d58897e
+# Content-Type: application/json
+
+# PATCH http://localhost:3000/wilders/patch/61421303ec7564902b5c75aa
+# Content-Type: application/json
+
+# {
+#   "name": "Ymothepa lalalalala"
+# }
+
+# PUT http://localhost:3000/wilders/update/61421303ec7564902b5c75aa
+# Content-Type: application/json
+
+# {
+#   "name": "Ymothepa lalalalala"
+# }
